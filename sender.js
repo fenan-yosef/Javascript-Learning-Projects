@@ -1,35 +1,22 @@
-//bot token
-var telegram_bot_id = "6179436473:AAHrPLLZBSjks3kzs5rvEVcD52UaAellVzE";
-//chat id
-var chat_id = ['856048902', '495806103', '1001459438185'];
-var u_name, email, message;
-var ready = function () {
-    u_name = document.getElementById("name").value;
-    email = document.getElementById("email").value;
-    message = document.getElementById("message").value;
-    message = "Name: " + u_name + "\nEmail: " + email + "\nMessage: " + message;
-};
-var sender = function () {
-    ready();
-    var settings = {
-        "async": true,
-        "crossDomain": true,
-        "url": "https://api.telegram.org/bot" + telegram_bot_id + "/sendMessage",
-        "method": "POST",
-        "headers": {
-            "Content-Type": "application/json",
-            "cache-control": "no-cache"
-        },
-        "data": JSON.stringify({
-            "chat_id": chat_id,
-            "text": message
-        })
-    };
-    $.ajax(settings).done(function (response) {
-        console.log(response);
-    });
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-    return false;
-};
+const TelegramBot = require('node-telegram-bot-api');
+
+// Replace 'YOUR_BOT_TOKEN' with the token obtained from BotFather
+const bot = new TelegramBot('6179436473:AAHrPLLZBSjks3kzs5rvEVcD52UaAellVzE', { polling: true });
+
+//6024456106:AAGhVJoQvhiHaDhhsjle5VauHopwMlXNTLY
+
+// Array of chat IDs
+const chatIds = ['856048902', '495806103', '1001459438185']; // Add the desired chat IDs
+
+// Handle incoming messages
+bot.on('message', (msg) => {
+  const message = msg.text;
+
+  // Process the message
+  // You can add your own logic here
+
+  // Send a message to each chat ID
+  chatIds.forEach((chatId) => {
+    bot.sendMessage(chatId, `New order received: ${message}`);
+  });
+});
