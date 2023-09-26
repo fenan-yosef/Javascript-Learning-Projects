@@ -17,6 +17,6 @@ bot.on('message', (msg) => {
 
   // Send a message to each chat ID
   chatIds.forEach((chatId) => {
-    bot.sendMessage(chatId, New order received: ${message});
+    bot.sendMessage(chatId, `New order received: ${message}`);
   });
 });
