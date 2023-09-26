@@ -4,7 +4,8 @@
   "description": "Telegram Bot Example",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node sender.js",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.53.0"
