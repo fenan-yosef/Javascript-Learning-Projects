@@ -12,7 +12,17 @@ function log(){
 
 const color = document.getElementById("div3");
 const random = document.getElementById("random_btn");
+count = 0
 
 random.addEventListener("click", function(){
-  color.style.backgroundColor = "blue";
+  
+  if(count%2==0){
+    color.style.backgroundColor = "blue";
+    document.getElementById("header").innerHTML = "Blue";
+  }
+  else{
+    color.style.backgroundColor = "purple";
+    document.getElementById("header").innerHTML = "Purple";
+  }
+  count++;
 })
