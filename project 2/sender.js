@@ -1,28 +1,16 @@
-let count = 0;
+var k;
 
-const h1number = document.querySelector(".Number")
+var randomColor = Math.floor(Math.random()*99999999).toString(16);
+console.log(randomColor);
+const ola = document.getElementById("ola");
 
-let value = h1number.textContent;
-console.log(Date());
-
-function log(){
-  value++;
-  h1number.textContent = value;
-}
-
-const color = document.getElementById("div3");
-const random = document.getElementById("random_btn");
-count = 0
-
-random.addEventListener("click", function(){
+function hue(){
+  var randomColor = Math.floor(Math.random()*7777777).toString(16);
+  document.body.style.backgroundColor = randomColor
+  console.log(randomColor);
+  ola.innerHTML = "#"+randomColor;
   
-  if(count%2==0){
-    color.style.backgroundColor = "blue";
-    document.getElementById("header").innerHTML = "Blue";
-  }
-  else{
-    color.style.backgroundColor = "purple";
-    document.getElementById("header").innerHTML = "Purple";
-  }
-  count++;
-})
+}
+function changeOla(){
+  
+}
