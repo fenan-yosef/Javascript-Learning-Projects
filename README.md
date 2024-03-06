@@ -57,5 +57,3 @@ If you have any questions, suggestions, or just want to say hi, feel free to rea
 
 Happy coding!
 ```
-
-Feel free to customize the README file to fit your specific projects, add or remove sections as needed, and provide more detailed instructions for running each project.
