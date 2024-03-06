@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+  <title>web</title>
+</head>
+<body>
+  <h1><img class="header-img" src="assets/image/dice.png">Dice</h1>
+  <h3>Roll the dice to determine which player wins. player with bigger number wins</h3>
+  <div id="winner"></div>
+  <div class="dice-container">
+    <div class="dice" id="dice1">
+        <p>Player 1</p>
+      <img class="img" src="assets/image/6.png">
+    </div>
+    <div class="dice" id="dice2">
+        <p>player 2</p>
+      <img class="img" src="assets/image/6.png">
+    </div>
+  </div>
+  <div class="btn-container">
+    <button class="btn" onclick="run()">Roll</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
