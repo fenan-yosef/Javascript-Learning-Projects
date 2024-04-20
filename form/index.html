@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="'en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Survey Form</h1>
+        <div class="form">
+            <form action="script.js" method="post">
+                <fieldset class="first-fieldset">
+                    <!-- <legend class="topic">Basic info</legend> -->
+                    <label for="first-name">First Name</label>
+                    <input name='first-name' type="textfield" required placeholder="Enter first name">
+                    <label for="last-name">Last Name</label>
+                    <input name='last-name' type="textfield" required placeholder="Enter last name">
+                    <label for="email">Email</label>
+                    <input name='email' type="email" required placeholder="Email">
+                    <label for="age">Age</label>
+                    <input name='age' type="number" required min="13" placeholder="Enter your age">
+                </fieldset>
+                <fieldset>
+                    <!-- <legend class="topic">Choices and stuff</legend> -->
+                    <label for="gender">Choose gender</label><br>
+                    <input type="radio" checked name="Gender"><label for="radio"> Male</label><br>
+                    <input type="radio" name="Gender"><label for="radio"> Female</label>
+
+                </fieldset>
+                <fieldset class="submit-container">
+                    <input class="submit" type="Submit">
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
