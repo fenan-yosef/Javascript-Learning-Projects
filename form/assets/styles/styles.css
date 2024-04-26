@@ -2,6 +2,15 @@
 
 * {
     box-sizing: border-box;
+    --dark-background: rgb(50, 50, 50);
+    --background-color: rgb(61, 61, 61);
+    --background-color-light: rgb(94, 94, 94);
+    --button-color: rgba(0, 136, 169, 1);
+    --shadow: rgb(35, 35, 35);
+}
+
+.white {
+    color: #fff;
 }
 
 body {
@@ -19,7 +28,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
-    box-shadow: 0px 0px 20px rgb(35, 35, 35);
+    box-shadow: 0px 0px 20px var(--shadow);
 }
 
 .logo {
@@ -52,7 +61,7 @@ header {
 
 button {
     margin-left: 20px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: var(--button-color);
     border-radius: 50px;
     cursor: pointer;
     border: none;
@@ -62,4 +71,86 @@ button {
 button:hover {
     background-color: rgb(0, 98, 122);
     transition: all 0.3s ease 0s;
+}
+
+#services {
+    padding: auto;
+}
+
+.head-title {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type='email'] {
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    width: 16rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+input[type='email']:focus {
+    box-shadow: 0px 0px 10px var(--button-color);
+    border: var(--button-color) solid;
+    transition: all 0.1s ease 0s;
+}
+
+input[type='submit'] {
+    width: 9rem;
+    height: 40px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type='submit']:hover {
+    background-color: rgb(0, 109, 136);
+    transition: all 0.3s ease 0s;
+}
+
+.service-container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.service-card {
+    width: 15rem;
+    height: 250px;
+    text-align: center;
+    background-color: var(--dark-background);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--shadow);
+    padding: 20px 10px;
+    color: #fff;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .service-container {
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service-card {
+        margin: 20px 0;
+    }
 }
