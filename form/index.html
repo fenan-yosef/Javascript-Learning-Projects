@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html lang="'en">
+<html lang='en'>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='viewport' content='width=device-width, initial scale = 1.0'>
+    <meta charset='utf-8'>
+    <title>Product Landing Page</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
-    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="title">Survey Form</h1>
-        <div class="form">
-            <form action="script.js" method="post">
-                <fieldset class="first-fieldset">
-                    <!-- <legend class="topic">Basic info</legend> -->
-                    <label for="first-name">First Name</label>
-                    <input name='first-name' type="textfield" required placeholder="Enter first name">
-                    <label for="last-name">Last Name</label>
-                    <input name='last-name' type="textfield" required placeholder="Enter last name">
-                    <label for="email">Email</label>
-                    <input name='email' type="email" required placeholder="Email">
-                    <label for="age">Age</label>
-                    <input name='age' type="number" required min="13" placeholder="Enter your age">
-                </fieldset>
-                <fieldset>
-                    <!-- <legend class="topic">Choices and stuff</legend> -->
-                    <label for="gender">Choose gender</label><br>
-                    <input type="radio" checked name="Gender"><label for="radio"> Male</label><br>
-                    <input type="radio" name="Gender"><label for="radio"> Female</label>
+    <header id='header'>
+        <!-- <img id='header-img' src='' alt='logo'> -->
+        <i class="logo fa fa-duotone fa-cart-shopping fa-2xl"></i>
+        <nav id='nav-bar'>
+            <ul class="nav-links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Donations</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button><i class="fa-light fa-phone fa" style="color: #000000;"></i>Contact</button></a>
+    </header>
+    <main id='main'>
+        <section>
 
-                </fieldset>
-                <fieldset class="submit-container">
-                    <input class="submit" type="Submit">
-                </fieldset>
-            </form>
-
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 
 </html>
