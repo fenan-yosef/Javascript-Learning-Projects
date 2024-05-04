@@ -98,10 +98,10 @@ const technologies = [
         name: "Flutter",
         icon: flutter,
     },
-    {
-        name: "Cpp",
-        icon: cpp,
-    },
+    // {
+    //     name: "Cpp",
+    //     icon: cpp,
+    // },
     {
         name: "Java",
         icon: java
@@ -134,10 +134,10 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
-    {
-        name: "git",
-        icon: git,
-    },
+    // {
+    //     name: "git",
+    //     icon: git,
+    // },
     {
         name: "figma",
         icon: figma,
