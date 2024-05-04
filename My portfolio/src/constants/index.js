@@ -94,10 +94,10 @@ const technologies = [
     //     name: "Redux Toolkit",
     //     icon: redux,
     // },
-    {
-        name: "Flutter",
-        icon: flutter,
-    },
+    // {
+    //     name: "Flutter",
+    //     icon: flutter,
+    // },
     // {
     //     name: "Cpp",
     //     icon: cpp,
@@ -118,10 +118,10 @@ const technologies = [
     //     name: 'Telesun',
     //     icon: telesun,
     // },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
