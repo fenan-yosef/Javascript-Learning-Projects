@@ -44,11 +44,10 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        My name is Fenan Yosef and I am currently enrolled as a software engineering student at
-        Adama University of Science and Technology. Even though I haven't graduated yet as a bachelor,
-        I have participated in many projects and independent certifications courses. I have developped
-        technological solutions for businesses and private clients. I am Interested in helping businesses attain their goals
-        by providing technological solutions and digital marketting techniques.
+        My name is Fenan Yosef, and I am currently studying software engineering at Adama University of Science and Technology. 
+        Although I haven't yet completed my bachelor's degree, I have been involved in various projects and independent certification courses. 
+        I have developed tech solutions for both businesses and private clients. I am passionate about assisting businesses in achieving 
+        their objectives through technological solutions and digital marketing strategies.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
