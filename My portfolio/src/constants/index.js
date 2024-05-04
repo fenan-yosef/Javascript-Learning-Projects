@@ -11,18 +11,28 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    flutter,
+    telesun,
+    // mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    cpp,
+    mysql,
+    java,
+    // docker,
+    // meta,
+    // starbucks,
+    // tesla,
+    dink,
+    python,
+    // shopify,
     carrent,
+    figoBot,
     jobit,
     tripguide,
     threejs,
+    figo,
+    // python,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +56,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Flutter Developer",
         icon: mobile,
     },
     {
@@ -54,7 +64,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Graphics Designer",
         icon: creator,
     },
 ];
@@ -80,10 +90,34 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Flutter",
+        icon: flutter,
     },
+    {
+        name: "Cpp",
+        icon: cpp,
+    },
+    {
+        name: "Java",
+        icon: java
+    },
+    {
+        name: "MySQL",
+        icon: mysql,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    // {
+    //     name: 'Telesun',
+    //     icon: telesun,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -92,10 +126,10 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
+    // {
+    //     name: "MongoDB",
+    //     icon: mongodb,
+    // },
     {
         name: "Three JS",
         icon: threejs,
@@ -108,107 +142,76 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Graphics Designer",
+        company_name: "Dink Tv, Kestedemena",
+        icon: dink,
+        iconBg: "#000000",
+        date: "October 2023 - Decemmber 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Brand Identity, Branding and theme determining since it was at startup stage when I was working.",
+            "Collaborating with Architectural graduate graphic designers to design new themes for every show in Dink Tv.",
+            "Contributing to Dink Tv instagram filter as a graphic designer.",
+            "Event cards and 'step and repeat' banners.",
+            "Casting in one of the Shows",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "TeleSun.js Developper",
+        company_name: "Chef-Figo Cakes",
+        icon: figo,
+        iconBg: "#ffffff",
+        date: "February 2024 - April 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining Telegram Bots for the business.",
+            "Mobilizing google apps to provide my clients with free Servers to produce high quality telegram bots.",
+            "Reviewing previous versions for performance and reliability improvments.",
+            "Build multiple bots for different client requirements.",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    },//add more here in the future
 ];
 
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Fenan is one of the most passionate software developers I know. He consistently completes projects with high quality and has also been a kind and helpful friend on various projects.",
+        name: "Abdi Urgessa",
+        designation: "Owner",
+        company: "Telesun",
+        image: "https://avatars.githubusercontent.com/u/71874927?v=4",
     },
+
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
+            "...Loading",
+        name: "Abenezer Fikadu",
         designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        company: "Chef Figo Cakes",
+        image: "https://randomuser.me/api/portraits",
     },
 ];
 
 const projects = [
+
     {
-        name: "Car Rent",
+        name: "Club  Event Management",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to View, book, and manage Events from various Other Users, providing a convenient and efficient solution for Event handling.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "HTML, CSS, JS",
+                color: "pink-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "Mysql",
+                color: "blue-text-gradient",
             },
             {
                 name: "tailwind",
@@ -216,50 +219,29 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/pal-oe/club-management-CSEC",
     },
     {
-        name: "Job IT",
+        name: "Figo Bot",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Telegram Bot that enables users to easily place their order from telegram channels, it handles payments and organizes orders and notifications",
         tags: [
             {
-                name: "react",
+                name: "telesun",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "javascript",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
+                name: "telegram",
                 color: "blue-text-gradient",
             },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+        image: figoBot,
+        source_code_link: "https://github.com/pal-oe/telegram-bot-using-telesun/tree/main/Cake%20Ordering%20Bot",
+    },//add more projects here
 ];
 
 export { services, technologies, experiences, testimonials, projects };

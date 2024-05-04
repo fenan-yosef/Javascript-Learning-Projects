@@ -17,6 +17,11 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import cpp from "./tech/c++.png";
+import mysql from "./tech/mysql.png"
+import java from "./tech/java.png"
+import flutter from "./tech/flutter.png";
+import telesun from "./tech/telesun.png"
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -25,12 +30,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import dink from "./company/dink.png"
+import figo from "./company/figo.png"
+import python from './tech/python.png'
 
 import carrent from "./carrent.png";
+import figoBot from "./figoBot.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  dink,
+  figo,
   logo,
   backend,
   creator,
@@ -48,7 +59,14 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  python,
+  figoBot,
   redux,
+  cpp,
+  mysql,
+  java,
+  flutter,
+  telesun,
   tailwind,
   typescript,
   threejs,
