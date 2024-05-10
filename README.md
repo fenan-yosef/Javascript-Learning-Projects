@@ -7,8 +7,8 @@ Welcome to My JavaScript Projects repository! This repository contains a collect
 - [App 1](counter/): keeps track of count.
 - [Game 2](Dice/): Rolls dice and determines winner.
 - [App 3](calculator/): calculator.
-- [App 4](color changer/): generates color randomly.
-- ...
+- [App 4](color-changer/): generates color randomly.
+- [App 5](My-portfolio): Personal portfolio designed for my <code>"web based systems"</code> course
 
 ## About
 
