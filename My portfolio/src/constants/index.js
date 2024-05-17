@@ -190,7 +190,7 @@ const testimonials = [
 
     {
         testimonial:
-            "Fenan Y. is the talented mind behind the creation of 'Chef Figo', a Telegram bot that revolutionizes the cooking experience. With innovative features and user-friendly interface, 'Chef Figo' brings culinary inspiration to users' fingertips. Fenan's bot has garnered praise for its simplicity and effectiveness. 'Chef Figo' showcases Fenan's expertise in bot development and commitment to enhancing user experiences through technology.",
+            "Fenan Y. is the talented mind behind the creation of 'Chef Figo', a Telegram bot that revolutionized the cake ordering experience. Fenan's bot has garnered respect for its simplicity and effectiveness.",
         name: "Abenezer Fikadu",
         designation: "CTO at Chef Figo",
         company: "Chef Figo Cakes",
