@@ -9,8 +9,10 @@ import {
     css,
     reactjs,
     redux,
+    docker,
     tailwind,
     nodejs,
+    mongodb,
     flutter,
     telesun,
     // mongodb,
@@ -86,22 +88,22 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
-    // {
-    //     name: "React JS",
-    //     icon: reactjs,
-    // },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
     // {
     //     name: "Redux Toolkit",
     //     icon: redux,
     // },
-    // {
-    //     name: "Flutter",
-    //     icon: flutter,
-    // },
+    {
+        name: "Flutter",
+        icon: flutter,
+    },
     // {
     //     name: "Cpp",
     //     icon: cpp,
@@ -122,34 +124,34 @@ const technologies = [
     //     name: 'Telesun',
     //     icon: telesun,
     // },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon: tailwind,
-    // },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
     {
         name: "Node JS",
         icon: nodejs,
     },
-    // {
-    //     name: "MongoDB",
-    //     icon: mongodb,
-    // },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
     {
         name: "Three JS",
         icon: threejs,
     },
-    // {
-    //     name: "git",
-    //     icon: git,
-    // },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "figma",
+        icon: figma,
+    },
+    {
+        name: "docker",
+        icon: docker,
+    },
 ];
 
 const experiences = [
