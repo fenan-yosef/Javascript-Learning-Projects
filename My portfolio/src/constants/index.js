@@ -32,6 +32,10 @@ import {
     tripguide,
     threejs,
     figo,
+    mesob,
+    ganprops,
+    tgapi,
+    chatbot,
     // python,
 } from "../assets";
 
@@ -64,7 +68,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Graphics Designer",
+        title: "Designer",
         icon: creator,
     },
 ];
@@ -154,7 +158,7 @@ const experiences = [
         company_name: "Dink Tv, Kestedemena",
         icon: dink,
         iconBg: "#000000",
-        date: "October 2023 - Decemmber 2023",
+        date: "October 2023 - December 2023",
         points: [
             "Brand Identity, Branding and theme determining since it was at startup stage when I was working.",
             "Collaborating with Architectural graduate graphic designers to design new themes for every show in Dink Tv.",
@@ -164,7 +168,7 @@ const experiences = [
         ],
     },
     {
-        title: "TeleSun.js Developper",
+        title: "Telegram bot by TeleSun.js Developper",
         company_name: "Chef-Figo Cakes",
         icon: figo,
         iconBg: "#ffffff",
@@ -175,26 +179,63 @@ const experiences = [
             "Reviewing previous versions for performance and reliability improvments.",
             "Build multiple bots for different client requirements.",
         ],
-    },//add more here in the future
+    },
+    {
+        title: "Full-stack Rental App",
+        company_name: "Gan Properties",
+        icon: ganprops,
+        iconBg: "#ffffff",
+        date: "January 2025 - June 2024",
+        points: [
+            "Developed a cross-platform rental marketplace app using Flutter for tenants and landlords, offering features similar to Airbnb.",
+            "Built the backend with NestJS and PostgreSQL, deployed on cPanel with full REST API integration and Chapa payment gateway.",
+            "Implemented full authentication (signup/login), listing CRUD operations, and user role separation between renters and property owners.",
+            "Integrated full-text search and location-based filtering with Flutter Map, allowing users to explore properties near them.",
+            "Designed the entire UI/UX on Figma and converted the designs into responsive Flutter components with smooth navigation and state management.",
+            "Handled image uploads, property categorization, and rental request handling via intuitive user flows.",
+            "Focused on performance, security, and user-centric design to ensure the platform was production-ready and scalable.",
+        ],
+    },
+    {
+        title: "Graphics Designer & Video Editor Intern",
+        company_name: "Mesob Technologies PLC",
+        icon: mesob, // replace with your actual icon reference
+        iconBg: "#ffffff",
+        date: "July 2025 – Present",
+        points: [
+            "Designed a variety of branded visuals, including social media posts, marketing banners, infographics, and print materials, tailored for diverse client campaigns.",
+            "Edited promotional videos, testimonial reels, and short-form social content for platforms like Instagram and YouTube using Adobe Premiere, After Effects, and CapCut.",
+            "Collaborated with the media team to ensure creative content aligns with client goals and audience preferences.",
+            "Used Adobe Photoshop and Illustrator to create engaging, on-brand visual assets with attention to typography, layout, and visual hierarchy.",
+            "Conducted performance analysis of client social media posts, compiled reports in spreadsheets, and proposed actionable content strategies to boost engagement.",
+            "Contributed to the company’s digital media presence by blending visual storytelling with strategic content planning.",
+        ]
+    }
+
+
+
+
+    ,//add more here in the future
 ];
 
 const testimonials = [
     {
         testimonial:
-            "Fenan is one of the most passionate software developers I know. He consistently completes projects with high quality and has also been a kind and helpful friend on various projects.",
-        name: "Abdi Urgessa",
+            "Very motivated young guy, was a pleasure working with him!",
+        name: "Rustom Stehling",
         designation: "Owner",
-        company: "Telesun",
-        image: "https://avatars.githubusercontent.com/u/71874927?v=4",
+        company: "Vitis Clinic, Germany",
+        // image: "https://avatars.githubusercontent.com/u/71874927?v=4",
+        image: "https://www.upwork.com/profile-portraits/c1bqDfEIAADuXxycWwe1I7Owm5ZiU3u2PShfgUq5WfzyWLnajYgosvyz8N_8xfO-tX"
     },
 
     {
         testimonial:
-            "Fenan Y. is the talented mind behind the creation of 'Chef Figo', a Telegram bot that revolutionized the cake ordering experience. Fenan's bot has garnered respect for its simplicity and effectiveness.",
-        name: "Abenezer Fikadu",
-        designation: "CTO at Chef Figo",
-        company: "Chef Figo Cakes",
-        image: "https://scontent.fadd2-1.fna.fbcdn.net/v/t1.6435-9/103483256_742363956572459_1406613359607579322_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-mLnQwgPyfwQ7kNvgEPYJ55&_nc_ht=scontent.fadd2-1.fna&oh=00_AYCAP-hrwZGySWX8nA0B_DHJLF08TA1cchHK1ujDrE0mLw&oe=666EE4BD",
+            "Fenan is fast and very easy to work with. Thank you!",
+        name: "Michelle NG LLC",
+        designation: "Upwork Client",
+        company: "Private Ciient",
+        image: "https://www.upwork.com/profile-portraits/c1f4XEB7ixc3L3QatnbWhAWuQP6dQyOt9_4AkNOCj6UO8S_g0eYOOum9DjRZ7Ia80r",
     },
     {
         testimonial: "Fenan is a great and dedicated developer who have shown me his amazing abilities on creating beautiful and pretty functional websites plus bots.",
@@ -206,7 +247,60 @@ const testimonials = [
 ];
 
 const projects = [
-
+    {
+        name: "AI chatbot",
+        description:
+            "AI chat bot that can answer questions about a specific topic, It remembers past conversations and can provide answers based on the context of the conversation.",
+        tags: [
+            {
+                name: "AI_chat_bot",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "nextjs",
+                color: "red-yellow-gradient",
+            },
+            {
+                name: "Gemini",
+                color: "teal-blue-text-gradient",
+            },
+            {
+                name: "V0",
+                color: "green-text-gradient",
+            },
+            {
+                name: "AI",
+                color: "purple-pink-text-gradient",
+            },
+        ],
+        image: chatbot,
+        source_code_link: "https://github.com/fenan-yosef/ai-chat-bot",
+    },
+    {
+        name: "Free storage Site",
+        description:
+            "Let's you use your own telegram bot to upload files and get a link to download them later, it uses Rest API to handle the telegram bot and uses telegram as a storage.",
+        tags: [
+            {
+                name: "Developer tool",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Next Js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Storage",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Vercel",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: tgapi,
+        source_code_link: "https://github.com/fenan-yosef/storage-api",
+    },
     {
         name: "Club  Event Management",
         description:
@@ -248,7 +342,8 @@ const projects = [
         ],
         image: figoBot,
         source_code_link: "https://github.com/pal-oe/telegram-bot-using-telesun/tree/main/Cake%20Ordering%20Bot",
-    },//add more projects here
+    },
+    //add more projects here
 ];
 
 export { services, technologies, experiences, testimonials, projects };

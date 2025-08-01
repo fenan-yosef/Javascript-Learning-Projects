@@ -107,6 +107,51 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* Red to Yellow Gradient */
+.red-yellow-text-gradient {
+  background: #ff512f;
+  background: -webkit-linear-gradient(to top, #ff512f, #f9d423);
+  background: linear-gradient(to top, #ff512f, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Teal to Blue Gradient */
+.teal-blue-text-gradient {
+  background: #43cea2;
+  background: -webkit-linear-gradient(to top, #43cea2, #185a9d);
+  background: linear-gradient(to top, #43cea2, #185a9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Purple to Pink Gradient */
+.purple-pink-text-gradient {
+  background: #a18cd1;
+  background: -webkit-linear-gradient(to top, #a18cd1, #fbc2eb);
+  background: linear-gradient(to top, #a18cd1, #fbc2eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Lime to Green Gradient */
+.lime-green-text-gradient {
+  background: #a8ff78;
+  background: -webkit-linear-gradient(to top, #a8ff78, #78ffd6);
+  background: linear-gradient(to top, #a8ff78, #78ffd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Indigo to Cyan Gradient */
+.indigo-cyan-text-gradient {
+  background: #4f5bd5;
+  background: -webkit-linear-gradient(to top, #4f5bd5, #00c6fb);
+  background: linear-gradient(to top, #4f5bd5, #00c6fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

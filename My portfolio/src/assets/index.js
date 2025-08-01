@@ -31,16 +31,24 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import dink from "./company/dink.png"
-import figo from "./company/figo.png"
+import figo from "./company/figo.png";
+import ganprops from "./company/ganprops.png";
+import mesob from "./company/mesob.png";
 import python from './tech/python.png'
 
 import carrent from "./carrent.png";
+import tgapi from "./telegram_api.png";
+import chatbot from "./chat_bot.png";
 import figoBot from "./figoBot.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  chatbot,
+  tgapi,
   dink,
+  mesob,
+  ganprops,
   figo,
   logo,
   backend,
