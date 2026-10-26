@@ -1,0 +1,7 @@
+{
+  "name": "javascript-learning-projects",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  }
+}
