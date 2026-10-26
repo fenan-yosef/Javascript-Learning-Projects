@@ -26,29 +26,30 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import dink from "./company/dink.png"
+import dalve from "./company/dalve.png";
+import onlineDimensions from "./company/online-dimensions.png";
+import kegeberew from "./company/kegeberew.png";
 import figo from "./company/figo.png";
-import ganprops from "./company/ganprops.png";
-import mesob from "./company/mesob.png";
-import python from './tech/python.png'
+import upwork from "./company/upwork.svg";
+import python from './tech/python.png';
 
 import carrent from "./carrent.png";
+import clubEvents from "./club_events.png";
 import tgapi from "./telegram_api.png";
 import chatbot from "./chat_bot.png";
 import figoBot from "./figoBot.png";
+import onesong from "./onesong.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  onesong,
+  upwork,
   chatbot,
   tgapi,
-  dink,
-  mesob,
-  ganprops,
+  dalve,
+  onlineDimensions,
+  kegeberew,
   figo,
   logo,
   backend,
@@ -78,11 +79,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
+  clubEvents,
   jobit,
   tripguide,
 };

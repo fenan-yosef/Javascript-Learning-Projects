@@ -14,10 +14,26 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, Im <span className='text-[#915eff]'>Fenan</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#915eff]'>Fenan</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
-            I develop big scale web <br className='sm:block hidden' />applications, Telegram Bots, and 3D User interfaces
+            Software Engineer & iOS App Developer crafting <br className='sm:block hidden' />
+            high-performance mobile apps, web platforms, and scalable backends.
           </p>
+          <div className='mt-8 flex flex-wrap gap-4'>
+            <a
+              href='/Fenan_Yosef_CV.pdf'
+              download
+              className='rounded-xl bg-[#915eff] px-6 py-3 text-white font-bold shadow-lg shadow-primary hover:bg-[#7c4de0] transition-colors'
+            >
+              Download CV
+            </a>
+            <a
+              href='#contact'
+              className='rounded-xl border border-secondary px-6 py-3 text-white font-bold hover:border-white transition-colors'
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
       </div>
       <ComputersCanvas />

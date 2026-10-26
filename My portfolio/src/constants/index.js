@@ -8,37 +8,27 @@ import {
     html,
     css,
     reactjs,
-    redux,
     docker,
     tailwind,
     nodejs,
     mongodb,
     flutter,
-    telesun,
-    // mongodb,
     git,
     figma,
-    cpp,
     mysql,
     java,
-    // docker,
-    // meta,
-    // starbucks,
-    // tesla,
-    dink,
     python,
-    // shopify,
-    carrent,
+    clubEvents,
     figoBot,
-    jobit,
-    tripguide,
     threejs,
     figo,
-    mesob,
-    ganprops,
     tgapi,
     chatbot,
-    // python,
+    dalve,
+    onlineDimensions,
+    kegeberew,
+    upwork,
+    onesong,
 } from "../assets";
 
 export const navLinks = [
@@ -58,19 +48,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Developer",
         icon: web,
     },
     {
-        title: "Flutter Developer",
+        title: "iOS & Mobile Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Backend & API Engineer",
         icon: backend,
     },
     {
-        title: "Designer",
+        title: "UI/UX & System Design",
         icon: creator,
     },
 ];
@@ -156,68 +146,70 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Graphics Designer",
-        company_name: "Dink Tv, Kestedemena",
-        icon: dink,
-        iconBg: "#000000",
-        date: "October 2023 - December 2023",
+        title: "Mobile Application Developer",
+        company_name: "DALVE ME",
+        icon: dalve,
+        iconBg: "#0f172a",
+        date: "July 2026 - Present",
         points: [
-            "Brand Identity, Branding and theme determining since it was at startup stage when I was working.",
-            "Collaborating with Architectural graduate graphic designers to design new themes for every show in Dink Tv.",
-            "Contributing to Dink Tv instagram filter as a graphic designer.",
-            "Event cards and 'step and repeat' banners.",
-            "Casting in one of the Shows",
+            "Leading mobile application engineering for UAE-based product initiatives, crafting responsive iOS and cross-platform experiences.",
+            "Designing clean client architecture, reactive state management, and reusable UI components with optimal performance.",
+            "Integrating secure REST APIs, data caching, and offline-first workflows for seamless mobile reliability.",
+            "Collaborating closely with product and backend teams to deliver production-ready releases to the app store.",
         ],
     },
     {
-        title: "Telegram bot by TeleSun.js Developper",
-        company_name: "Chef-Figo Cakes",
+        title: "Full Stack & Mobile Engineer",
+        company_name: "Upwork (OneSong)",
+        icon: upwork,
+        iconBg: "#14a800",
+        date: "June 2026 - Present",
+        points: [
+            "Engineering OneSong, a production monorepo platform spanning React/Vite web, Flutter mobile (iOS & Android), and Firebase Cloud Functions.",
+            "Architected real-time event systems with Firestore, Firebase Realtime Database, and Spotify API for live crowd song queues, requests, and attendee voting.",
+            "Engineered monetization infrastructure including dynamic paywall CMS, StoreKit / in-app purchase pricing sync, and secure tipping/payout workflows.",
+            "Managed multi-platform release pipelines, publishing Flutter builds to the Apple App Store (Build 39) and Google Play Store with deep-linking and push notifications.",
+            "Implemented robust security rules, direct password resets via Resend API, bounded notification inboxes, and automated background transaction handling.",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Online Dimensions",
+        icon: onlineDimensions,
+        iconBg: "#0f172a",
+        date: "August 2025 - July 2026",
+        points: [
+            "Architected and shipped full-stack features across backend APIs, frontend dashboards, and Flutter mobile applications.",
+            "Engineered scalable backend services, schema models across PostgreSQL, MongoDB, and MySQL, and robust RESTful API endpoints.",
+            "Built automated data processing pipelines and scheduled tasks in Python to streamline core business operations.",
+            "Owned end-to-end CI/CD using GitHub Actions, containerized environments, and deployments on Linux VPS and Vercel.",
+            "Participated in system design reviews, code refactoring, and resolved critical production issues with high reliability.",
+        ],
+    },
+    {
+        title: "Java Programmer",
+        company_name: "Kegeberew Technology Solution",
+        icon: kegeberew,
+        iconBg: "#0b1b30",
+        date: "July 2024 - September 2024",
+        points: [
+            "Developed robust backend modules in Java and responsive web interfaces using HTML and CSS for enterprise medical software.",
+            "Designed clean UI/UX structures specifically tailored for clinical data entry, improving usability for healthcare professionals.",
+            "Conducted system testing, database query tuning, and code maintenance to meet stringent enterprise reliability standards.",
+        ],
+    },
+    {
+        title: "Bot Developer",
+        company_name: "Chef Figo",
         icon: figo,
-        iconBg: "#ffffff",
-        date: "February 2024 - April 2024",
+        iconBg: "#1c1917",
+        date: "March 2024",
         points: [
-            "Developing and maintaining Telegram Bots for the business.",
-            "Mobilizing google apps to provide my clients with free Servers to produce high quality telegram bots.",
-            "Reviewing previous versions for performance and reliability improvments.",
-            "Build multiple bots for different client requirements.",
+            "Engineered and launched an automated commercial Telegram cake-ordering bot end-to-end for a local bakery single-handedly.",
+            "Built interactive product catalog navigation, seamless ordering flows, input validation, and conversational edge-case handling.",
+            "Owned system architecture, payment notifications, and cloud deployment on a fixed commercial delivery timeline.",
         ],
     },
-    {
-        title: "Full-stack Rental App",
-        company_name: "Gan Properties",
-        icon: ganprops,
-        iconBg: "#ffffff",
-        date: "January 2025 - June 2024",
-        points: [
-            "Developed a cross-platform rental marketplace app using Flutter for tenants and landlords, offering features similar to Airbnb.",
-            "Built the backend with NestJS and PostgreSQL, deployed on cPanel with full REST API integration and Chapa payment gateway.",
-            "Implemented full authentication (signup/login), listing CRUD operations, and user role separation between renters and property owners.",
-            "Integrated full-text search and location-based filtering with Flutter Map, allowing users to explore properties near them.",
-            "Designed the entire UI/UX on Figma and converted the designs into responsive Flutter components with smooth navigation and state management.",
-            "Handled image uploads, property categorization, and rental request handling via intuitive user flows.",
-            "Focused on performance, security, and user-centric design to ensure the platform was production-ready and scalable.",
-        ],
-    },
-    {
-        title: "Graphics Designer & Video Editor Intern",
-        company_name: "Mesob Technologies PLC",
-        icon: mesob, // replace with your actual icon reference
-        iconBg: "#ffffff",
-        date: "July 2025 – Present",
-        points: [
-            "Designed a variety of branded visuals, including social media posts, marketing banners, infographics, and print materials, tailored for diverse client campaigns.",
-            "Edited promotional videos, testimonial reels, and short-form social content for platforms like Instagram and YouTube using Adobe Premiere, After Effects, and CapCut.",
-            "Collaborated with the media team to ensure creative content aligns with client goals and audience preferences.",
-            "Used Adobe Photoshop and Illustrator to create engaging, on-brand visual assets with attention to typography, layout, and visual hierarchy.",
-            "Conducted performance analysis of client social media posts, compiled reports in spreadsheets, and proposed actionable content strategies to boost engagement.",
-            "Contributed to the company’s digital media presence by blending visual storytelling with strategic content planning.",
-        ]
-    }
-
-
-
-
-    ,//add more here in the future
 ];
 
 const testimonials = [
@@ -249,6 +241,35 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "OneSong — Live Music Platform",
+        description:
+            "Full-stack real-time music request platform connecting DJs and event attendees. Features live queue voting, Spotify API integration, dynamic paywall monetization, and cross-platform mobile apps deployed to App Store & Google Play.",
+        tags: [
+            {
+                name: "Flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Firebase",
+                color: "red-yellow-gradient",
+            },
+            {
+                name: "TypeScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Spotify API",
+                color: "teal-blue-text-gradient",
+            },
+        ],
+        image: onesong,
+        source_code_link: "https://github.com/fenan-yosef",
+    },
     {
         name: "AI chatbot",
         description:
@@ -304,24 +325,24 @@ const projects = [
         source_code_link: "https://github.com/fenan-yosef/storage-api",
     },
     {
-        name: "Club  Event Management",
+        name: "Campus Event Platform",
         description:
-            "Web-based platform that allows users to View, book, and manage Events from various Other Users, providing a convenient and efficient solution for Event handling.",
+            "Web-based platform that allows students and organizations to discover, book, and manage campus events and reservations with interactive schedules.",
         tags: [
             {
-                name: "HTML, CSS, JS",
+                name: "JavaScript",
                 color: "pink-text-gradient",
             },
             {
-                name: "Mysql",
+                name: "MySQL",
                 color: "blue-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: clubEvents,
         source_code_link: "https://github.com/pal-oe/club-management-CSEC",
     },
     {

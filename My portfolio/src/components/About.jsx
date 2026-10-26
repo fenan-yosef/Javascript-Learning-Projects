@@ -44,15 +44,15 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        My name is Fenan Yosef, a Flutter mobile app developer and fullstack web developer.
-        I specialize in building fast, scalable, and user-friendly applications using modern
-        tools like Flutter, Firebase, Next.js, Node.js, Firebase and PostgreSQL.
-        I've delivered tech solutions for businesses and private clients,
-        ranging from custom apps to complete web platforms. I’m passionate about
-        helping businesses grow through clean code, intuitive user interfaces, and
-        effective digital strategies. Whether it's launching an MVP or optimizing
-        an existing product, I bring practical experience and a problem-solving
-        mindset to every project.
+        I am Fenan Yosef, a Software Engineer and iOS & Mobile Developer dedicated
+        to engineering robust, performant digital solutions. With expertise across
+        JavaScript, TypeScript, Python, Dart (Flutter), Swift/iOS, Node.js, NestJS,
+        Express, React, Next.js, PostgreSQL, MongoDB, MySQL, and Firebase, I build
+        end-to-end applications ranging from responsive mobile clients to resilient
+        cloud architectures and scalable APIs. Backed by formal Computer Software
+        Engineering education from Adama Science and Technology University and ALX,
+        I blend clean code architecture with thoughtful UI/UX and a hands-on
+        shipping mindset to turn complex challenges into reliable products.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
