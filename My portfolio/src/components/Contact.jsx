@@ -79,8 +79,8 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <p className='mt-2 text-secondary text-[15px] leading-[24px]'>
           Reach me directly at{" "}
-          <a href='mailto:fenan1yosef@gmail.com' className='text-white hover:text-[#915eff] underline'>
-            fenan1yosef@gmail.com
+          <a href='mailto:fenanyosef@gmail.com' className='text-white hover:text-[#915eff] underline'>
+            fenanyosef@gmail.com
           </a>{" "}
           or send a message below.
         </p>
