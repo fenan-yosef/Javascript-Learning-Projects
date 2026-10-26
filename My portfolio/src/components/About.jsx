@@ -44,15 +44,16 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am Fenan Yosef, a Software Engineer and iOS & Mobile Developer dedicated
-        to engineering robust, performant digital solutions. With expertise across
-        JavaScript, TypeScript, Python, Dart (Flutter), Swift/iOS, Node.js, NestJS,
-        Express, React, Next.js, PostgreSQL, MongoDB, MySQL, and Firebase, I build
-        end-to-end applications ranging from responsive mobile clients to resilient
-        cloud architectures and scalable APIs. Backed by formal Computer Software
-        Engineering education from Adama Science and Technology University and ALX,
-        I blend clean code architecture with thoughtful UI/UX and a hands-on
-        shipping mindset to turn complex challenges into reliable products.
+        I am Fenan Yosef, a Software Engineer, iOS & Mobile Developer, and AI Coding
+        Trainer dedicated to engineering robust, performant digital solutions. With
+        expertise across JavaScript, TypeScript, Python, Dart (Flutter), Swift/iOS,
+        Node.js, NestJS, Express, React, Next.js, PostgreSQL, MongoDB, MySQL, and
+        Firebase, I build end-to-end applications ranging from responsive mobile
+        clients to resilient cloud architectures and scalable APIs. I also train and
+        evaluate AI models on coding tasks, reviewing algorithmic logic, edge cases,
+        and production readiness. Backed by formal Computer Software Engineering
+        education from Adama Science and Technology University and ALX, I bring a
+        hands-on shipping mindset to turn ambitious ideas into reliable products.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

@@ -60,7 +60,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "UI/UX & System Design",
+        title: "AI Coding Trainer",
         icon: creator,
     },
 ];
@@ -149,7 +149,7 @@ const experiences = [
         title: "Mobile Application Developer",
         company_name: "DALVE ME",
         icon: dalve,
-        iconBg: "#0f172a",
+        iconBg: "#ffffff",
         date: "July 2026 - Present",
         points: [
             "Leading mobile application engineering for UAE-based product initiatives, crafting responsive iOS and cross-platform experiences.",
@@ -176,7 +176,7 @@ const experiences = [
         title: "Software Engineer",
         company_name: "Online Dimensions",
         icon: onlineDimensions,
-        iconBg: "#0f172a",
+        iconBg: "#ffffff",
         date: "August 2025 - July 2026",
         points: [
             "Architected and shipped full-stack features across backend APIs, frontend dashboards, and Flutter mobile applications.",
